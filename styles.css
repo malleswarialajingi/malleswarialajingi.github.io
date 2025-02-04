@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 30px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar form {
+    display: inline-block;
+}
+
+.search-bar input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+}
+
+.search-bar .buttons {
+    margin-top: 10px;
+}
+
+.search-bar input[type="submit"] {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 24px;
+    background-color: #1a73e8;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar input[type="submit"]:hover {
+    background-color: #0c57d0;
+}
+
+.advanced {
+    text-align: left;
+    display: inline-block;
+}
+
+.advanced label {
+    display: block;
+    margin: 10px 0;
+}
+
+.advanced input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    outline: none;
+}
+
+.advanced input[type="submit"] {
+    display: block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: white;
+    cursor: pointer;
+}
+
+.advanced input[type="submit"]:hover {
+    background-color: #0c57d0;
+}
